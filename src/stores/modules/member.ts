@@ -27,8 +27,6 @@ export const useMemberStore = defineStore(
   },
   // TODO: 持久化
   {
-    // 网页端保存
-    // persist: true,
-    // 小程序
+    persist: true,
   },
 )
